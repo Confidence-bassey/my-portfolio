@@ -42,10 +42,10 @@ const About = () => {
             className="w-full md:w-2/3 text-gray-700 text-lg leading-relaxed"
           >
             <p className="mb-4">
-              I'm a passionate web developer with experience in building responsive and performant web applications using modern technologies like <strong>Java</strong>, <strong>Spring boot</strong>, <strong>Spring Security</strong>, <strong>Next.js</strong>, <strong>React JS</strong>, <strong>TypeScript</strong>, and <strong>Tailwind CSS</strong>.
+              I&apos;m a passionate web developer with experience in building responsive and performant web applications using modern technologies like <strong>Java</strong>, <strong>Spring boot</strong>, <strong>Spring Security</strong>, <strong>Next.js</strong>, <strong>React JS</strong>, <strong>TypeScript</strong>, and <strong>Tailwind CSS</strong>.
             </p>
             <p className="mb-4">
-              I love translating ideas into beautiful interfaces and efficient backends. Whether it's crafting a polished frontend, designing REST APIs, or deploying to the cloud - I enjoy every part of the development lifecycle.
+              I love translating ideas into beautiful interfaces and efficient backends. Whether it&apos;s crafting a polished frontend, designing REST APIs, or deploying to the cloud - I enjoy every part of the development lifecycle.
             </p>
             <p>
               Outside of coding, I enjoy reading books, writing tech blogs, exploring AI/ML trends, listening to music and contributing to open-source projects.

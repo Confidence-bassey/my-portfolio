@@ -15,7 +15,7 @@ const Hero = () => {
         className="max-w-2xl"
       >
         <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-4">
-          Hi, I'm <span className="text-blue-600">Confidence Bassey</span>
+          Hi, I&apos;m <span className="text-blue-600">Confidence Bassey</span>
         </h1>
         
         <p className="text-lg md:text-xl text-gray-600 mb-6">
