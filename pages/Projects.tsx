@@ -26,7 +26,7 @@ const projects: Project[] = [
    description:
      "BankDash is a modern, responsive, and intuitive banking dashboard built with React, Vite, and Tailwind CSS. It provides users with an interactive and seamless experience for managing accounts, transactions, investments, credit cards, and other financial services.",
    tech: ["React", "React Icons", "Vite", "Tailwind CSS", "React Router"],
-   liveUrl: "bankdash-team-2025.netlify.app/",
+   liveUrl: "https://bankdash-team-2025.netlify.app/",
    githubUrl: "https://github.com/InternPulse-Frontend-March-2025/bankdash",
  },
  {
