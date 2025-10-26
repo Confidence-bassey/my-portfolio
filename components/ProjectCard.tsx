@@ -10,7 +10,7 @@ export type Project = {
  description: string;
  tech: string[];
  liveUrl?: string;
- githubUrl: string;
+ githubUrl?: string;
 };
 
 type ProjectCardProps = {
@@ -52,14 +52,17 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
            Live <FaExternalLinkAlt size={14} />
          </a>
        )}
-       <a
-         href={project.githubUrl}
-         target="_blank"
-         rel="noopener noreferrer"
-         className="text-gray-800 hover:underline flex items-center gap-1"
-       >
-         Code <FaGithub size={16} />
-       </a>
+
+       {project.githubUrl && (
+          <a
+            href={project.githubUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-800 hover:underline flex items-center gap-1"
+          >
+            Code <FaGithub size={16} />
+          </a>
+        )}
      </div>
    </motion.div>
  );

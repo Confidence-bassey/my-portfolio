@@ -11,7 +11,6 @@ const projects: Project[] = [
    title: "Desiree Events",
    description: "An event planning and management web application that allows users to reach out to event planners",
    tech: ["Next.js", "TypeScript", "Tailwind CSS"],
-   githubUrl: "",
    liveUrl: "https://desire-events.vercel.app/",
  },
  {
@@ -44,7 +43,6 @@ const projects: Project[] = [
      "A web app for identifying amala restaurants and also add any restaurant you discovered to help other find it too.",
    tech: ["Next JS", "Node.js", "Tailwind CSS","Firebase"],
    liveUrl: "https://amala-atlas-20bbf.web.app/",
-   githubUrl: "",
  },
  {
    title: "Eve",
