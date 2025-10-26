@@ -8,10 +8,11 @@ import ProjectCard, { Project } from "../components/ProjectCard";
 const projects: Project[] = [
  
  {
-   title: "Financial Dashboard",
-   description: "A finance dashboard",
+   title: "Desiree Events",
+   description: "An event planning and management web application that allows users to reach out to event planners",
    tech: ["Next.js", "TypeScript", "Tailwind CSS"],
-   githubUrl: "https://github.com/Confidence-bassey/financial-dashboard-app",
+   githubUrl: "",
+   liveUrl: "https://desire-events.vercel.app/",
  },
  {
    title: "POS-Padi",
@@ -38,11 +39,12 @@ const projects: Project[] = [
    githubUrl: "https://github.com/yourusername/task-manager",
  },
  {
-   title: "TechLiftInspired",
+   title: "Amala-Atlas",
    description:
-     "A full-stack task management application with user authentication.",
-   tech: ["React", "Node.js", "MySQL"],
-   githubUrl: "https://github.com/yourusername/task-manager",
+     "A web app for identifying amala restaurants and also add any restaurant you discovered to help other find it too.",
+   tech: ["Next JS", "Node.js", "Tailwind CSS","Firebase"],
+   liveUrl: "https://amala-atlas-20bbf.web.app/",
+   githubUrl: "",
  },
  {
    title: "Eve",

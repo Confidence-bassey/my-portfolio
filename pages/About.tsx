@@ -1,6 +1,5 @@
 'use client'
 
-
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 import MyPic from "../public/My picture.jpg"
