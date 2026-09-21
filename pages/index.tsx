@@ -4,8 +4,8 @@ import About from "./About";
 import Contact from "./Contact";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Header";
-import Projects from "./Projects";
-
+// import Projects from "./Projects";
+import ProjectsWithImage from "./ProjectsWithImage";
 
 export default function Home() {
   return (
@@ -17,7 +17,8 @@ export default function Home() {
         <About />
         
         <Skills />
-        <Projects />
+        {/* <Projects /> */}
+        <ProjectsWithImage />
         <Contact />
         <Footer />
       

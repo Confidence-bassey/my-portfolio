@@ -15,7 +15,7 @@ const Navbar = () => {
   ]
 
   return (
-    <header className="fixed w-full bg-white shadow-md z-50">
+    <header className="fixed w-full bg-white  z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
 
         <div className="text-xl font-bold text-gray-900">
